@@ -136,6 +136,7 @@ Seleccion:
     case 4:
 // Esta opcion termina la ejecucion del programa//
         return 0;
+// Si el switch no tiene un case para el valor ingresado, se imprime este mensaje y se vuelve al inicio//
     default:
         printf ("\nEscoga una opcion valida");
         goto inicio;
